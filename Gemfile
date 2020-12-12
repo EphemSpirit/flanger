@@ -25,6 +25,7 @@ gem 'bulma-rails', '~> 0.9.1'
 gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
 gem 'mini_magick', '~> 4.11'
+gem 'active_storage_validations', '~> 0.9.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
