@@ -25,7 +25,7 @@ class InstrumentsController < ApplicationController
   # POST /instruments.json
   def create
     @instrument = current_user.instruments.build(instrument_params)
-    #@instrument.image.attach(params[:instrument][:instrument_pic])
+    @instrument.image.attach(params[:instrument][:instrument_pic])
 
 
     respond_to do |format|
